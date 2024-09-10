@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    background-color: #edf2f4;
+    color: lightcoral;
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    display: flex;
+    background-color: #777879;
+    color: rgb(241, 102, 102);
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+}
+.splash h2 {
+    font-family: "Bodini Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: pink;
+    text-align: center;
+}
+.splash img {
+    border: 5px solid rgb(254, 109, 109);
+    border-radius: 2px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.splash p {
+    font-family: "Bodini Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+hr {
+    border: 5px;
+    border-radius: 10px;
+    height: 1px;
+    background-color: #e63946;
+}
+.edu h2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e63946;
+    text-align: center;
+}
+.edu p {
+    font-family: "Bodini Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-inline-start: 100px auto;
+}
+.hon h2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e63946;
+    text-align: center;
+}
+.honD {
+    display: grid;
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+}
+.hondD dt {
+    text-align: left;
+    padding: 30px 0;
+    font-size: 40px;
+}
+.hondD dd {
+    text-align: right;
+    padding: 30px 0;
+    font-size: 40px;
+}
+.skil h2 {
+    font-optical-sizing: auto;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#e63946;
+    text-align: center;
+}
+.skil ul {
+    font-family: "Bodini Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-inline-start: 100px auto;
+}
+.ldr h2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e63946;
+    text-align: center;
+}
+.proj h2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e63946;
+    text-align: center;
+}
+.proj p {
+    font-family: "Bodini Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-inline-start: 100px auto;
+}
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover {
+    color: red;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    box-shadow: 0 4px 8px 0 rgb(255, 141, 141);
+    transition: 0.3s;
+    width: 33.33%;
+    border-radius: 6px;
+    border-color: red;
+    grid-auto-rows: 1fr;
+  }
+  .card-inner {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+  }
+  dt {
+    grid-column-start: 1;
+  }
+  dd {
+    grid-column-start: 2;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  form label {
+    box-shadow: 0 4px 8px 0 rgb(255, 141, 141);
+    transition: 0.3s;
+    width: 33.33%;
+    border-radius: 6px;
+    border-color: #938586;
+    grid-auto-rows: 1fr;
+  }
+  form input {
+    box-shadow: 0 4px 8px 0 rgb(255, 141, 141);
+    transition: 0.3s;
+    width: 33.33%;
+    border-radius: 6px;
+    border-color: #938586;
+    grid-auto-rows: 1fr;
+  }
+  form textarea {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #938586;
+    font-size: 20;
+  }
